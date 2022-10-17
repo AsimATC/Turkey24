@@ -47,15 +47,15 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav main_nav">
-              <li class="active"><a href="index.html"><span class="fa fa-home desktop-home"></span>
+              <li class="active"><a href="index.php"><span class="fa fa-home desktop-home"></span>
                   <span class="mobile-show"></span></a></li>
-                  <li><a href="rus.html">Rusya Ukrayna</a></li>
-                  <li><a href="gundem.html">GÜNDEM</a></li>
-                  <li><a href="ekonomi.html">EKONOMİ</a></li>
-                  <li><a href="dunya.html">DÜNYA</a></li>
-                  <li><a href="demokrasi.html">demokrasi</a></li>
-                  <li><a href="covid.html">covid</a></li>
-                  <li><a href="pages/yazarlar.html">YAZARLAR</a></li>
+                  <li><a href="rus.php">Rusya Ukrayna</a></li>
+                  <li><a href="gundem.php">GÜNDEM</a></li>
+                  <li><a href="ekonomi.php">EKONOMİ</a></li>
+                  <li><a href="dunya.php">DÜNYA</a></li>
+                  <li><a href="demokrasi.php">demokrasi</a></li>
+                  <li><a href="covid.php">covid</a></li>
+                  <li><a href="pages/yazarlar.php">YAZARLAR</a></li>
             </ul>
         </div>
       </nav>
@@ -73,27 +73,27 @@
                 <h2><span>Popüler Yazılar</span></h2>
                 <ul class="spost_nav">
                   <li>
-                    <div class="media wow fadeInDown"> <a href="pages/tarih_tekerrur.html" class="media-left"> <img alt=""
+                    <div class="media wow fadeInDown"> <a href="pages/tarih_tekerrur.php" class="media-left"> <img alt=""
                           src="images/haber_gorselleri/_106309552_053312616-1.jpg"> </a>
-                      <div class="media-body"> <a href="pages/tarih_tekerrur.html" class="catg_title"> Tarih Tekerrür</a> </div>
+                      <div class="media-body"> <a href="pages/tarih_tekerrur.php" class="catg_title"> Tarih Tekerrür</a> </div>
                     </div>
                   </li>
                   <li>
-                    <div class="media wow fadeInDown"> <a href="pages/rus_ukrayna.html" class="media-left"> <img alt=""
+                    <div class="media wow fadeInDown"> <a href="pages/rus_ukrayna.php" class="media-left"> <img alt=""
                           src="images/haber_gorselleri/684209Image1.jpg"> </a>
-                      <div class="media-body"> <a href="pages/rus_ukrayna.html" class="catg_title"> Rusya Savaşı Kayıp mı ediyor?</a> </div>
+                      <div class="media-body"> <a href="pages/rus_ukrayna.php" class="catg_title"> Rusya Savaşı Kayıp mı ediyor?</a> </div>
                     </div>
                   </li>
                   <li>
-                    <div class="media wow fadeInDown"> <a href="pages/avrupada_yukselen.html" class="media-left"> <img alt=""
+                    <div class="media wow fadeInDown"> <a href="pages/avrupada_yukselen.php" class="media-left"> <img alt=""
                           src="images/haber_gorselleri/greergrggrerg.jpg"> </a>
-                      <div class="media-body"> <a href="pages/avrupada_yukselen.html" class="catg_title"> Avrupa'da Aşırı Sağın Yükselişi</a> </div>
+                      <div class="media-body"> <a href="pages/avrupada_yukselen.php" class="catg_title"> Avrupa'da Aşırı Sağın Yükselişi</a> </div>
                     </div>
                   </li>
                   <li>
-                    <div class="media wow fadeInDown"> <a href="pages/referandum.html" class="media-left"> <img alt=""
+                    <div class="media wow fadeInDown"> <a href="pages/referandum.php" class="media-left"> <img alt=""
                           src="images/haber_gorselleri/Fd7Kp9aXwAkS12O.jpg"> </a>
-                      <div class="media-body"> <a href="pages/referandum.html" class="catg_title"> 4 Bölgedeki Referadum Sonrası Gelişmeler</a> </div>
+                      <div class="media-body"> <a href="pages/referandum.php" class="catg_title"> 4 Bölgedeki Referadum Sonrası Gelişmeler</a> </div>
                     </div>
                   </li>
                 </ul>

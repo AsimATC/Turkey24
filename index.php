@@ -47,15 +47,15 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav main_nav">
-            <li class="active"><a href="index.html"><span class="fa fa-home desktop-home"></span>
+            <li class="active"><a href="index.php"><span class="fa fa-home desktop-home"></span>
                 <span class="mobile-show"></span></a></li>
-            <li><a href="rus.html">Rusya Ukrayna</a></li>
-            <li><a href="gundem.html">GÜNDEM</a></li>
-            <li><a href="ekonomi.html">EKONOMİ</a></li>
-            <li><a href="dunya.html">DÜNYA</a></li>
-            <li><a href="demokrasi.html">demokrasi</a></li>
-            <li><a href="covid.html">covid</a></li>
-            <li><a href="pages/yazarlar.html">YAZARLAR</a></li>
+            <li><a href="rus.php">Rusya Ukrayna</a></li>
+            <li><a href="gundem.php">GÜNDEM</a></li>
+            <li><a href="ekonomi.php">EKONOMİ</a></li>
+            <li><a href="dunya.php">DÜNYA</a></li>
+            <li><a href="demokrasi.php">demokrasi</a></li>
+            <li><a href="covid.php">covid</a></li>
+            <li><a href="pages/yazarlar.php">YAZARLAR</a></li>
           </ul>
         </div>
       </nav>
@@ -64,32 +64,32 @@
       <div class="row">
         <div class="col-lg-8 col-md-8 col-sm-8">
           <div class="slick_slider">
-            <div class="single_iteam"> <a href="pages/rus_ukrayna.html"> <img src="images/haber_gorselleri/684209Image1.jpg" alt=""></a>
+            <div class="single_iteam"> <a href="pages/rus_ukrayna.php"> <img src="images/haber_gorselleri/684209Image1.jpg" alt=""></a>
               <div class="slider_article">
-                <h2><a class="slider_tittle" href="pages/rus_ukrayna.html">Rusya Savaşı Kayıp mı ediyor?</a></h2>
+                <h2><a class="slider_tittle" href="pages/rus_ukrayna.php">Rusya Savaşı Kayıp mı ediyor?</a></h2>
 
               </div>
             </div>
-            <div class="single_iteam"> <a href="pages/avrupada_yukselen.html"> <img src="images/haber_gorselleri/greergrggrerg.jpg" alt=""></a>
+            <div class="single_iteam"> <a href="pages/avrupada_yukselen.php"> <img src="images/haber_gorselleri/greergrggrerg.jpg" alt=""></a>
               <div class="slider_article">
-                <h2><a class="slider_tittle" href="pages/avrupada_yukselen.html">Avrupa'da Aşırı Sağın Yükselişi</a></h2>
+                <h2><a class="slider_tittle" href="pages/avrupada_yukselen.php">Avrupa'da Aşırı Sağın Yükselişi</a></h2>
 
               </div>
             </div>
-            <div class="single_iteam"> <a href="pages/tarih_tekerrur.html"> <img src="images/haber_gorselleri/_106309552_053312616-1.jpg" alt=""></a>
+            <div class="single_iteam"> <a href="pages/tarih_tekerrur.php"> <img src="images/haber_gorselleri/_106309552_053312616-1.jpg" alt=""></a>
               <div class="slider_article">
-                <h2><a class="slider_tittle" href="pages/tarih_tekerrur.html">Tarih Tekerrür</a></h2>
+                <h2><a class="slider_tittle" href="pages/tarih_tekerrur.php">Tarih Tekerrür</a></h2>
 
               </div>
             </div>
-            <div class="single_iteam"> <a href="pages/referandum.html"> <img src="images/haber_gorselleri/Fd7Kp9aXwAkS12O.jpg" alt=""></a>
+            <div class="single_iteam"> <a href="pages/referandum.php"> <img src="images/haber_gorselleri/Fd7Kp9aXwAkS12O.jpg" alt=""></a>
               <div class="slider_article">
-                <h2><a class="slider_tittle" href="pages/referandum.html">4 Bölgedeki Referadum Sonrası Gelişmeler</a></h2>
+                <h2><a class="slider_tittle" href="pages/referandum.php">4 Bölgedeki Referadum Sonrası Gelişmeler</a></h2>
               </div>
             </div>
-            <div class="single_iteam"> <a href="pages/altılı_masa_dagilma.html"> <img src="images/haber_gorselleri/altili-masa-6-gorusme-aa-1900614_2.jpg" alt=""></a>
+            <div class="single_iteam"> <a href="pages/altılı_masa_dagilma.php"> <img src="images/haber_gorselleri/altili-masa-6-gorusme-aa-1900614_2.jpg" alt=""></a>
               <div class="slider_article">
-                <h2><a class="slider_tittle" href="pages/altılı_masa_dagilma.html">6'lı Masa Dağılıyor mu?</a></h2>
+                <h2><a class="slider_tittle" href="pages/altılı_masa_dagilma.php">6'lı Masa Dağılıyor mu?</a></h2>
 
               </div>
             </div>
@@ -102,33 +102,33 @@
               <div id="prev-button"><i class="fa fa-chevron-up"></i></div>
               <ul class="latest_postnav">
                 <li>
-                  <div class="media"> <a href="pages/resesyon.html" class="media-left"> <img alt=""
+                  <div class="media"> <a href="pages/resesyon.php" class="media-left"> <img alt=""
                         src="images/haber_gorselleri/istockphoto-1167797024-612x612.jpg"> </a>
-                    <div class="media-body"> <a href="pages/resesyon.html" class="catg_title"> Resesyon Sırasında Dünya Borsalarının Durumu</a> </div>
+                    <div class="media-body"> <a href="pages/resesyon.php" class="catg_title"> Resesyon Sırasında Dünya Borsalarının Durumu</a> </div>
                   </div>
                 </li>
                 <li>
-                  <div class="media"> <a href="pages/zafer_multeci.html" class="media-left"> <img alt=""
+                  <div class="media"> <a href="pages/zafer_multeci.php" class="media-left"> <img alt=""
                         src="images/haber_gorselleri/e2204da4-35e1-44a5-a3ad-108fe8401d05.jpg"> </a>
-                    <div class="media-body"> <a href="pages/zafer_multeci.html" class="catg_title">Zafer Partisi, Sadece Sığınmacılar Üzerinden Mi Hareket Ediyor?</a> </div>
+                    <div class="media-body"> <a href="pages/zafer_multeci.php" class="catg_title">Zafer Partisi, Sadece Sığınmacılar Üzerinden Mi Hareket Ediyor?</a> </div>
                   </div>
                 </li>
                 <li>
-                  <div class="media"> <a href="pages/avrupada_yukselen.html" class="media-left"> <img alt=""
+                  <div class="media"> <a href="pages/avrupada_yukselen.php" class="media-left"> <img alt=""
                         src="images/haber_gorselleri/greergrggrerg.jpg"> </a>
-                    <div class="media-body"> <a href="pages/avrupada_yukselen.html" class="catg_title"> Avrupa'da Aşırı Sağın Yükselişi</a> </div>
+                    <div class="media-body"> <a href="pages/avrupada_yukselen.php" class="catg_title"> Avrupa'da Aşırı Sağın Yükselişi</a> </div>
                   </div>
                 </li>
                 <li>
-                  <div class="media"> <a href="pages/rus_ukrayna.html" class="media-left"> <img alt=""
+                  <div class="media"> <a href="pages/rus_ukrayna.php" class="media-left"> <img alt=""
                         src="images/haber_gorselleri/684209Image1.jpg"> </a>
-                    <div class="media-body"> <a href="pages/rus_ukrayna.html" class="catg_title"> Rusya Savaşı Kayıp mı ediyor?</a> </div>
+                    <div class="media-body"> <a href="pages/rus_ukrayna.php" class="catg_title"> Rusya Savaşı Kayıp mı ediyor?</a> </div>
                   </div>
                 </li>
                 <li>
-                  <div class="media"> <a href="pages/tarih_tekerrur.html" class="media-left"> <img alt=""
+                  <div class="media"> <a href="pages/tarih_tekerrur.php" class="media-left"> <img alt=""
                         src="images/haber_gorselleri/_106309552_053312616-1.jpg"> </a>
-                    <div class="media-body"> <a href="pages/tarih_tekerrur.html" class="catg_title"> Tarih Tekerrür</a> </div>
+                    <div class="media-body"> <a href="pages/tarih_tekerrur.php" class="catg_title"> Tarih Tekerrür</a> </div>
                   </div>
                 </li>
               </ul>
@@ -147,9 +147,9 @@
               <div class="single_post_content_left">
                 <ul class="business_catgnav  wow fadeInDown">
                   <li>
-                    <figure class="bsbig_fig"> <a href="pages/referandum.html" class="featured_img"> <img alt=""
+                    <figure class="bsbig_fig"> <a href="pages/referandum.php" class="featured_img"> <img alt=""
                           src="images/haber_gorselleri/Fd7Kp9aXwAkS12O.jpg"> <span class="overlay"></span> </a>
-                      <figcaption> <a href="pages/referandum.html">4 Bölgedeki Referadum Sonrası Gelişmeler</a>
+                      <figcaption> <a href="pages/referandum.php">4 Bölgedeki Referadum Sonrası Gelişmeler</a>
                       </figcaption>
                     </figure>
                   </li>
@@ -158,9 +158,9 @@
               <div class="single_post_content_right">
                 <ul class="business_catgnav  wow fadeInDown">
                   <li  style="display: none;">
-                    <figure class="bsbig_fig"> <a href="pages/single_page.html" class="featured_img"> <img alt=""
+                    <figure class="bsbig_fig"> <a href="pages/single_page.php" class="featured_img"> <img alt=""
                           src="images/featured_img1.jpg"> <span class="overlay"></span> </a>
-                      <figcaption> <a href="pages/single_page.html">Proin rhoncus consequat nisl eu ornare mauris</a>
+                      <figcaption> <a href="pages/single_page.php">Proin rhoncus consequat nisl eu ornare mauris</a>
                       </figcaption>
                       <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl
                         quis mauris. Suspendisse a phare...</p>
@@ -174,9 +174,9 @@
                 <div class="single_post_content">
                   <ul class="business_catgnav wow fadeInDown">
                     <li  style="display: none;">
-                      <figure class="bsbig_fig"> <a href="pages/single_page.html" class="featured_img"> <img alt=""
+                      <figure class="bsbig_fig"> <a href="pages/single_page.php" class="featured_img"> <img alt=""
                             src="images/featured_img2.jpg"> <span class="overlay"></span> </a>
-                        <figcaption> <a href="pages/single_page.html">Proin rhoncus consequat nisl eu ornare mauris</a>
+                        <figcaption> <a href="pages/single_page.php">Proin rhoncus consequat nisl eu ornare mauris</a>
                         </figcaption>
                         <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla
                           nisl quis mauris. Suspendisse a phare...</p>
@@ -189,9 +189,9 @@
                 <div class="single_post_content">
                   <ul class="business_catgnav">
                     <li  style="display: none;">
-                      <figure class="bsbig_fig wow fadeInDown"> <a href="pages/single_page.html" class="featured_img">
+                      <figure class="bsbig_fig wow fadeInDown"> <a href="pages/single_page.php" class="featured_img">
                           <img alt="" src="images/featured_img3.jpg"> <span class="overlay"></span> </a>
-                        <figcaption> <a href="pages/single_page.html">Proin rhoncus consequat nisl eu ornare mauris</a>
+                        <figcaption> <a href="pages/single_page.php">Proin rhoncus consequat nisl eu ornare mauris</a>
                         </figcaption>
                         <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla
                           nisl quis mauris. Suspendisse a phare...</p>
@@ -209,27 +209,27 @@
               <h2><span>Popüler Yazılar</span></h2>
               <ul class="spost_nav">
                 <li>
-                  <div class="media wow fadeInDown"> <a href="pages/tarih_tekerrur.html" class="media-left"> <img alt=""
+                  <div class="media wow fadeInDown"> <a href="pages/tarih_tekerrur.php" class="media-left"> <img alt=""
                         src="images/haber_gorselleri/_106309552_053312616-1.jpg"> </a>
-                    <div class="media-body"> <a href="pages/tarih_tekerrur.html" class="catg_title"> Tarih Tekerrür</a> </div>
+                    <div class="media-body"> <a href="pages/tarih_tekerrur.php" class="catg_title"> Tarih Tekerrür</a> </div>
                   </div>
                 </li>
                 <li>
-                  <div class="media wow fadeInDown"> <a href="pages/rus_ukrayna.html" class="media-left"> <img alt=""
+                  <div class="media wow fadeInDown"> <a href="pages/rus_ukrayna.php" class="media-left"> <img alt=""
                         src="images/haber_gorselleri/684209Image1.jpg"> </a>
-                    <div class="media-body"> <a href="pages/rus_ukrayna.html" class="catg_title"> Rusya Savaşı Kayıp mı ediyor?</a> </div>
+                    <div class="media-body"> <a href="pages/rus_ukrayna.php" class="catg_title"> Rusya Savaşı Kayıp mı ediyor?</a> </div>
                   </div>
                 </li>
                 <li>
-                  <div class="media wow fadeInDown"> <a href="pages/avrupada_yukselen.html" class="media-left"> <img alt=""
+                  <div class="media wow fadeInDown"> <a href="pages/avrupada_yukselen.php" class="media-left"> <img alt=""
                         src="images/haber_gorselleri/greergrggrerg.jpg"> </a>
-                    <div class="media-body"> <a href="pages/avrupada_yukselen.html" class="catg_title"> Avrupa'da Aşırı Sağın Yükselişi</a> </div>
+                    <div class="media-body"> <a href="pages/avrupada_yukselen.php" class="catg_title"> Avrupa'da Aşırı Sağın Yükselişi</a> </div>
                   </div>
                 </li>
                 <li>
-                  <div class="media wow fadeInDown"> <a href="pages/referandum.html" class="media-left"> <img alt=""
+                  <div class="media wow fadeInDown"> <a href="pages/referandum.php" class="media-left"> <img alt=""
                         src="images/haber_gorselleri/Fd7Kp9aXwAkS12O.jpg"> </a>
-                    <div class="media-body"> <a href="pages/referandum.html" class="catg_title"> 4 Bölgedeki Referadum Sonrası Gelişmeler</a> </div>
+                    <div class="media-body"> <a href="pages/referandum.php" class="catg_title"> 4 Bölgedeki Referadum Sonrası Gelişmeler</a> </div>
                   </div>
                 </li>
               </ul>
