@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-3">
-        <img src="images/Turkey24.png" alt="" class="w-100">
+        <img src="<?php echo $url ?>images/Turkey24.png" alt="" class="w-100">
         <span><?php echo  $slogan  ?></span>
       </div>
       <div class="col-md-3">
@@ -12,13 +12,13 @@
           Hızlı Link
         </h3>
         <ul>
-          <li><a href="rusya-haber.php">rusya Ukrayna</a></li>
-          <li><a href="gundem.php">Gündem</a></li>
-          <li><a href="ekonomi.php">Ekonomi</a></li>
-          <li><a href="ekonomi.php">Dünya</a></li>
-          <li><a href="demokrasi.php">Demokrasi</a></li>
-          <li><a href="covid.php">Covid</a></li>
-          <li><a href="yazarlar.php">Yazarlar</a></li>
+          <li><a href="<?php echo $url ?>rusya-haber">rusya Ukrayna</a></li>
+          <li><a href="<?php echo $url ?>gundem">Gündem</a></li>
+          <li><a href="<?php echo $url ?>ekonomi">Ekonomi</a></li>
+          <li><a href="<?php echo $url ?>ekonomi">Dünya</a></li>
+          <li><a href="<?php echo $url ?>demokrasi">Demokrasi</a></li>
+          <li><a href="<?php echo $url ?>covid">Covid</a></li>
+          <li><a href="<?php echo $url ?>yazarlar">Yazarlar</a></li>
         </ul>
       </div>
       <div class="col-md-3">
@@ -32,7 +32,7 @@
           $sorhaber->execute(array());
           while ($yazhaber = $sorhaber->fetch(PDO::FETCH_ASSOC)) { ?>
 
-            <li><a class="footer-news" href="haber-detay.php?haberid=<?php echo $yazhaber['id'] ?>"><?php echo $yazhaber['baslik'] ?></a></li>
+            <li><a class="footer-news" href="<?php echo $url ?>haber/<?php echo $yazhaber['id'] ?>"><?php echo $yazhaber['baslik'] ?></a></li>
           <?php } ?>
         </ul>
       </div>
@@ -50,7 +50,7 @@
     <div class="row">
     <div class="col-12 text-center">
         <div class="copyright mb-5">
-          Tüm Haklar Saklıdır <a href="basarimweb.com" class="">basarimweb.com</a>
+          Tüm Haklar Saklıdır <a href="https://basarimweb.com/" class="" target="_blank">basarimweb.com</a>
         </div>
         <br>
     </div>
@@ -58,14 +58,14 @@
   </div>
 </footer>
 
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/wow.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/slick.min.js"></script>
-<script src="assets/js/jquery.li-scroller.1.0.js"></script>
-<script src="assets/js/jquery.newsTicker.min.js"></script>
-<script src="assets/js/jquery.fancybox.pack.js"></script>
-<script src="assets/js/custom.js"></script>
+<script src="<?php echo $url ?>assets/js/jquery.min.js"></script>
+<script src="<?php echo $url ?>assets/js/wow.min.js"></script>
+<script src="<?php echo $url ?>assets/js/bootstrap.min.js"></script>
+<script src="<?php echo $url ?>assets/js/slick.min.js"></script>
+<script src="<?php echo $url ?>assets/js/jquery.li-scroller.1.0.js"></script>
+<script src="<?php echo $url ?>assets/js/jquery.newsTicker.min.js"></script>
+<script src="<?php echo $url ?>assets/js/jquery.fancybox.pack.js"></script>
+<script src="<?php echo $url ?>assets/js/custom.js"></script>
 </body>
 
 </html>

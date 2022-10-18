@@ -22,6 +22,8 @@ while ($ayaryaz = $ayarsor->fetch(PDO::FETCH_ASSOC)) {
   $youtube = $ayaryaz['youtube'];
   
 }
+
+$url = "http://localhost/turkey24/";
 ?>
 
 
@@ -33,16 +35,16 @@ while ($ayaryaz = $ayarsor->fetch(PDO::FETCH_ASSOC)) {
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/font.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/li-scroller.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/theme.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <link rel="shortcut icon" type="image/png" href="images/Turkey24.png">
+  <link rel="stylesheet" type="text/css" href="<?php echo $url ?>assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo $url ?>assets/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo $url ?>assets/css/animate.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo $url ?>assets/css/font.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo $url ?>assets/css/li-scroller.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo $url ?>assets/css/slick.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo $url ?>assets/css/jquery.fancybox.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo $url ?>assets/css/theme.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo $url ?>assets/css/style.css">
+  <link rel="shortcut icon" type="image/png" href="<?php echo $url ?>images/Turkey24.png">
   <!--[if lt IE 9]>
 <script src="assets/js/html5shiv.min.js"></script>
 <script src="assets/js/respond.min.js"></script>
@@ -55,7 +57,7 @@ while ($ayaryaz = $ayarsor->fetch(PDO::FETCH_ASSOC)) {
     <div id="status">&nbsp;</div>
   </div>
 
-  <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+  <a class="scrollToTop" href="<?php echo $url ?>"><i class="fa fa-angle-up"></i></a>
 
   <!-- wrapper start -->
   <div class="container">
@@ -71,7 +73,7 @@ while ($ayaryaz = $ayarsor->fetch(PDO::FETCH_ASSOC)) {
       height: 180px;
       display: block;
       margin-left: auto;
-      margin-right: auto;" src="images/Turkey24.png" alt="">
+      margin-right: auto;" src="<?php echo $url ?>images/Turkey24.png" alt="">
     </section>
 
     <!-- Menu Start -->
@@ -82,15 +84,15 @@ while ($ayaryaz = $ayarsor->fetch(PDO::FETCH_ASSOC)) {
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav main_nav">
-            <li class="active"><a href="index.php"><span class="fa fa-home desktop-home"></span>
+            <li class="active"><a href="<?php echo $url ?>"><span class="fa fa-home desktop-home"></span>
                 <span class="mobile-show"></span></a></li>
-            <li><a href="rusya-haber.php">Rusya Ukrayna</a></li>
-            <li><a href="gundem.php">GÜNDEM</a></li>
-            <li><a href="ekonomi.php">EKONOMİ</a></li>
-            <li><a href="dunya.php">DÜNYA</a></li>
-            <li><a href="demokrasi.php">demokrasi</a></li>
-            <li><a href="covid.php">covid</a></li>
-            <li><a href="yazarlar.php">YAZARLAR</a></li>
+            <li><a href="<?php echo $url ?>rusya-haber">Rusya Ukrayna</a></li>
+            <li><a href="<?php echo $url ?>gundem">GÜNDEM</a></li>
+            <li><a href="<?php echo $url ?>ekonomi">EKONOMİ</a></li>
+            <li><a href="<?php echo $url ?>dunya">DÜNYA</a></li>
+            <li><a href="<?php echo $url ?>demokrasi">demokrasi</a></li>
+            <li><a href="<?php echo $url ?>covid">covid</a></li>
+            <li><a href="<?php echo $url ?>yazarlar">YAZARLAR</a></li>
           </ul>
         </div>
       </nav>

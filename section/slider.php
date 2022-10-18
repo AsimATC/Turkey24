@@ -9,9 +9,9 @@
         while ($slideryaz = $slidersor->fetch(PDO::FETCH_ASSOC)) { ?>
 
           <!-- Slider item -->
-          <div class="single_iteam"> <a href="haber-detay.php?haberid=<?php echo $slideryaz['id'] ?>"> <img src="uploads/<?php echo $slideryaz['ustresim'] ?>" alt=""></a>
+          <div class="single_iteam"> <a href="<?php echo $url ?>haber/<?php echo $slideryaz['id'] ?>"> <img src="<?php echo $url ?>uploads/<?php echo $slideryaz['ustresim'] ?>" alt=""></a>
             <div class="slider_article">
-              <h2><a class="slider_tittle" href="haber-detay.php?haberid=<?php echo $slideryaz['id'] ?>"> <?php echo $slideryaz['baslik'] ?></a></h2>
+              <h2><a class="slider_tittle" href="<?php echo $url ?>haber/<?php echo $slideryaz['id'] ?>"> <?php echo $slideryaz['baslik'] ?></a></h2>
 
             </div>
           </div>
@@ -32,8 +32,8 @@
             while ($sonyaziyaz = $sonyazisor->fetch(PDO::FETCH_ASSOC)) { ?>
 
               <li>
-                <div class="media"> <a href="haber-detay.php?haberid=<?php echo $sonyaziyaz['id'] ?>" class="media-left"> <img alt="" src="uploads/<?php echo $sonyaziyaz['ustresim'] ?>"> </a>
-                  <div class="media-body"> <a href="haber-detay.php?haberid=<?php echo $sonyaziyaz['id'] ?>" class="catg_title"> <?php echo $sonyaziyaz['baslik'] ?></a> </div>
+                <div class="media"> <a href="<?php echo $url ?>haber/<?php echo $sonyaziyaz['id'] ?>" class="media-left"> <img alt="" src="<?php echo $url ?>uploads/<?php echo $sonyaziyaz['ustresim'] ?>"> </a>
+                  <div class="media-body"> <a href="<?php echo $url ?>haber/<?php echo $sonyaziyaz['id'] ?>" class="catg_title"> <?php echo $sonyaziyaz['baslik'] ?></a> </div>
                 </div>
               </li>
             <?php } ?>

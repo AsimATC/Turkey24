@@ -15,8 +15,8 @@
           <div class="single_post_content_left">
             <ul class="business_catgnav  wow fadeInDown">
               <li>
-                <figure class="bsbig_fig"> <a href="pages/referandum.php" class="featured_img"> <img alt="" src="uploads/<?php echo $haberyaz['ustresim'] ?>"> <span class="overlay"></span> </a>
-                  <figcaption> <a href="haber-detay.php?haberid=<?php echo $haberyaz['id'] ?>"><?php echo $haberyaz['baslik'] ?></a>
+                <figure class="bsbig_fig"> <a href="<?php echo $url ?>haber/<?php echo $haberyaz['id'] ?>" class="featured_img"> <img alt="" src="<?php echo $url ?>uploads/<?php echo $haberyaz['ustresim'] ?>"> <span class="overlay"></span> </a>
+                  <figcaption> <a href="<?php echo $url ?>haber/<?php echo $haberyaz['id'] ?>"><?php echo $haberyaz['baslik'] ?></a>
                 </figure>
               </li>
             </ul>
@@ -25,7 +25,7 @@
         </div>
       </div>
     </div>
-    <?php include "section/populeryazilar.php" ?>
+     <?php include "section/populeryazilar.php" ?>
   </div>
 </section>
 

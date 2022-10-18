@@ -9,8 +9,8 @@
         while ($populeryaz = $populeryazi->fetch(PDO::FETCH_ASSOC)) { ?>
 
           <li>
-            <div class="media"> <a href="haber-detay.php?haberid=<?php echo $populeryaz['id'] ?>" class="media-left"> <img alt="" src="uploads/<?php echo $populeryaz['ustresim'] ?>"> </a>
-              <div class="media-body"> <a href="haber-detay.php?haberid=<?php echo $populeryaz['id'] ?>" class="catg_title"> <?php echo $populeryaz['baslik'] ?></a> </div>
+            <div class="media"> <a href="<?php echo $url ?>haber/<?php echo $populeryaz['id'] ?>" class="media-left"> <img alt="" src="<?php echo $url ?>uploads/<?php echo $populeryaz['ustresim'] ?>"> </a>
+              <div class="media-body"> <a href="<?php echo $url ?>haber/<?php echo $populeryaz['id'] ?>" class="catg_title"> <?php echo $populeryaz['baslik'] ?></a> </div>
             </div>
           </li>
         <?php } ?>
