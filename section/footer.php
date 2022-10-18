@@ -5,19 +5,19 @@
     <div class="row">
       <div class="col-md-3">
         <img src="images/Turkey24.png" alt="" class="w-100">
-        <span>Slogan yazısı olacaktır bu alanda</span>
+        <span><?php echo  $slogan  ?></span>
       </div>
       <div class="col-md-3">
         <h3 class="font-weight-bold">
           Hızlı Link
         </h3>
         <ul>
-          <li><a href="haber.php">rusya Ukrayna</a></li>
-          <li><a href="haber.php">Gündem</a></li>
-          <li><a href="haber.php">Ekonomi</a></li>
-          <li><a href="haber.php">Dünya</a></li>
-          <li><a href="haber.php">Demokrasi</a></li>
-          <li><a href="haber.php">Covid</a></li>
+          <li><a href="rusya-haber.php">rusya Ukrayna</a></li>
+          <li><a href="gundem.php">Gündem</a></li>
+          <li><a href="ekonomi.php">Ekonomi</a></li>
+          <li><a href="ekonomi.php">Dünya</a></li>
+          <li><a href="demokrasi.php">Demokrasi</a></li>
+          <li><a href="covid.php">Covid</a></li>
           <li><a href="yazarlar.php">Yazarlar</a></li>
         </ul>
       </div>
@@ -26,29 +26,35 @@
           Son Yazılanlar
         </h3>
         <ul>
-          <li><a href="">rusya Ukrayna</a></li>
-          <li><a href="">Gündem</a></li>
-          <li><a href="">Ekonomi</a></li>
-          <li><a href="">Dünya</a></li>
-          <li><a href="">Demokrasi</a></li>
-          <li><a href="">Covid</a></li>
-          <li><a href="">Yazarlar</a></li>
+          <?php
+
+          $sorhaber = $db->prepare('SELECT * FROM sahap WHERE menu = 75 ORDER BY tarih DESC LIMIT 7');
+          $sorhaber->execute(array());
+          while ($yazhaber = $sorhaber->fetch(PDO::FETCH_ASSOC)) { ?>
+
+            <li><a class="footer-news" href="haber-detay.php?haberid=<?php echo $yazhaber['id'] ?>"><?php echo $yazhaber['baslik'] ?></a></li>
+          <?php } ?>
         </ul>
       </div>
       <div class="col-md-3">
         <h3 class="font-weight-bold">
           İletişim
         </h3>
-        <span>Adres bu alanda olacaktır adres bu alanda</span> <br>
-        <span> Tel : +90 555 555 55 55</span> <br>
-        <span>Mail : info@turkey24.org</span>
+        <span><?php echo  $adres  ?></span> <br>
+        <span> Tel : <?php echo  $cep  ?></span> <br>
+        <span>Mail : <?php echo  $mail  ?></span>
       </div>
-      <div class="col-12">
-        <div class="copyright">
+
+    </div>
+    <hr>
+    <div class="row">
+    <div class="col-12 text-center">
+        <div class="copyright mb-5">
           Tüm Haklar Saklıdır <a href="basarimweb.com" class="">basarimweb.com</a>
         </div>
-      </div>
+        <br>
     </div>
+  </div>
   </div>
 </footer>
 

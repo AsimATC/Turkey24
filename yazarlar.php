@@ -1,16 +1,16 @@
 <?php include "section/header.php" ?>
 
-  <section>
-    <img style="height: 300px; padding-bottom: 50px; display: inline; padding-right: 30px;" src="images/Unknown_person.jpg" alt="">
-    <h2 style="display: inline;">Aren Boyrazyan</h2>
+<section>
+  <?php
+  $ekipsor = $db->prepare('SELECT * FROM sahap WHERE menu = 73');
+  $ekipsor->execute(array());
+  while ($ekipyaz = $ekipsor->fetch(PDO::FETCH_ASSOC)) { ?>
+    <img style="height: 300px; padding-bottom: 50px; display: inline; padding-right: 30px;" src="uploads/<?php echo $ekipyaz['ustresim'] ?>" alt="">
+    <h2 style="display: inline;"><?php echo $ekipyaz['baslik'] ?></h2>
     <br>
     <br>
-    <img style="height: 300px; padding-bottom: 50px; display: inline; padding-right: 30px;" src="images/Unknown_person.jpg" alt="">
-    <h2 style="display: inline;">Sir Kafka</h2>
-    <br>
-    <br>
-    <img style="height: 300px; padding-bottom: 50px; display: inline; padding-right: 30px;" src="images/Unknown_person.jpg" alt="">
-    <h2 style="display: inline;">Tuna Avcı</h2>
-  </section>
+  <?php } ?>
 
-  <?php include "section/footer.php" ?>
+</section>
+
+<?php include "section/footer.php" ?>

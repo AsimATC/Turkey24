@@ -1261,13 +1261,6 @@ figure.effect-layla:hover img {
     color: #ccc
 }
 
-.copyright {
-    float: left;
-    width: 50%;
-    padding-top: 5px;
-    text-align: left
-}
-
 .developer {
     float: right;
     width: 50%;
@@ -1713,24 +1706,32 @@ figure.effect-layla:hover img {
     border: 1px solid #0a8ec4
 }
 
-.w-100{
+.w-100 {
     width: 100%;
 }
 
-footer{
+footer {
     padding: 40px 0 0 0;
     background: #101010;
-    color: #ffffff;
+    color: #d5d5d5;
 }
 
-footer a{
-    color: #ffffff;
-    opacity: .8;
+footer a {
+    color: #d5d5d5;
+
 }
 
-footer a:hover{
+footer a:hover {
     color: #ffff !important;
- opacity: 1;
+    opacity: 1;
+}
+
+.footer-news {
+    display: block;
+    white-space: nowrap;
+    width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 @media(max-width:1199px) {
@@ -1861,11 +1862,6 @@ footer a:hover{
     }
 
     .technology {
-        width: 100%
-    }
-
-    .copyright {
-        text-align: center;
         width: 100%
     }
 

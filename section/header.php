@@ -1,3 +1,30 @@
+<?php include "section/db.php" ?>
+
+
+<?php
+
+
+$ayarsor = $db->prepare('SELECT * FROM ayarlar LIMIT 1');
+$ayarsor->execute(array());
+while ($ayaryaz = $ayarsor->fetch(PDO::FETCH_ASSOC)) {
+
+  $mail = $ayaryaz['mail'];
+  $adres = $ayaryaz['adres'];
+  $whatsapp = $ayaryaz['whatsapp'];
+  $cep = $ayaryaz['cep'];
+
+  $slogan = $ayaryaz['slogan'];
+  $maps = $ayaryaz['maps'];
+
+  $facebook = $ayaryaz['facebook'];
+  $instagram = $ayaryaz['instagram'];
+  $twitter = $ayaryaz['twitter'];
+  $youtube = $ayaryaz['youtube'];
+  
+}
+?>
+
+
 <!DOCTYPE html>
 <html>
 
@@ -38,7 +65,7 @@
       <div class="row">
       </div>
     </header>
-    
+
     <!-- Logo -->
     <section><img style="
       height: 180px;
@@ -57,12 +84,12 @@
           <ul class="nav navbar-nav main_nav">
             <li class="active"><a href="index.php"><span class="fa fa-home desktop-home"></span>
                 <span class="mobile-show"></span></a></li>
-            <li><a href="haber.php">Rusya Ukrayna</a></li>
-            <li><a href="haber.php">GÜNDEM</a></li>
-            <li><a href="haber.php">EKONOMİ</a></li>
-            <li><a href="haber.php">DÜNYA</a></li>
-            <li><a href="haber.php">demokrasi</a></li>
-            <li><a href="haber.php">covid</a></li>
+            <li><a href="rusya-haber.php">Rusya Ukrayna</a></li>
+            <li><a href="gundem.php">GÜNDEM</a></li>
+            <li><a href="ekonomi.php">EKONOMİ</a></li>
+            <li><a href="dunya.php">DÜNYA</a></li>
+            <li><a href="demokrasi.php">demokrasi</a></li>
+            <li><a href="covid.php">covid</a></li>
             <li><a href="yazarlar.php">YAZARLAR</a></li>
           </ul>
         </div>
